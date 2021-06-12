@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
-// import TarotCards from './TarotCards';
-// import data from './data';
+import TarotCards from './components/TarotCards';
+import data from './data';
 
 function getURL(path){
     if(process.env.NODE_ENV === 'development'){
